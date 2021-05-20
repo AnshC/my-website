@@ -1,0 +1,53 @@
+export const projects = [
+    {
+        name: "Night Mode",
+        description: "A lightweight CSS/JS library to enable night mode in an HTML project",
+        link: {
+            url: "https://github.com/AnshC/night-mode",
+            state: "enabled"
+        },
+        demo: "https://nightmodebyansh.glitch.me/sample.html",
+        key: "project01_nightmode"
+    },
+    {
+        name: "Personal Website",
+        description: "My own website!",
+        link: {
+            url: "https://anshc.github.io",
+            state: "n/a"
+        },
+        demo: "https://anshc.github.io",
+        key: "project02_myportfolio"
+    },
+    {
+        name: "WWIRN",
+        description: "When Will It Rain Next is my first API based app",
+        link: {
+            url: "https://github.com/AnshC/wwirn",
+            state: "enabled"
+        },
+        demo: "http://wwirn.glitch.me",
+        key: "project03_wwirn"
+    },
+    {
+        name: "Libertas",
+        description: "A School Project for my IGCSE Subject, Global Perspectives",
+        link: {
+            url: "https://github.com/AnshC/libertas-website",
+            state: "n/a"
+        },
+        demo: "https://thelibertas.in",
+        key: "project04_libertas-website"
+    },
+    {
+        name: "Next Rainfall",
+        description: "WWIRN 2.0, more secure and overall: better.",
+        link: {
+            url:"https://github.com/AnshC/next-rainfall",
+            state: "enabled"
+        },
+        demo: "https://nextrainfall.glitch.me",
+        key: "project04_next-rainfall"
+    }
+    
+]

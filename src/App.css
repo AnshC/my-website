@@ -97,7 +97,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 150px;
-    opacity: 5%;
+    opacity: 0.1;
   }
   .skills .icon{
     width: 100px;
@@ -110,7 +110,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 150px;
-    opacity: 5%;
+    opacity: 0.1;
   }
   
   .skills .digital-media .head{
@@ -118,7 +118,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 100px;
-    opacity: 5%;
+    opacity: 0.1;
   }
   
   .skills .digital-media .icon{
@@ -140,7 +140,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 50px;
-    opacity: 50%;
+    opacity: 1;
   }
 
   .skills .backend .head{
@@ -148,7 +148,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 50px;
-    opacity: 50%;
+    opacity: 1;
   }
 
   .skills .digital-media .head{
@@ -156,7 +156,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 50px;
-    opacity: 50%;
+    opacity: 1;
   }
 }
 

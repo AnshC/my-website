@@ -91,36 +91,39 @@ p, h1, h2, h3, div{
   }
 }
 
-@media only screen and (max-width: 1200px){
-  .skills .icon{
-    width: 50px;
-    margin-right:50px;
-    margin-top: 20px;
-    transform: translate(0px);
-  }
-
+@media only screen and (min-width: 1200px){
   .skills .frontend .head{
     padding-top: 0px;
     color:white;
     text-shadow: none;
-    font-size: 50px;
-    opacity: 5%;
+    font-size: 150px;
+    opacity: 25%;
   }
-
+  .skills .icon{
+    width: 100px;
+    margin-right: 80px;
+    transform: translateY(-80px);
+  }
+  
   .skills .backend .head{
     padding-top: 0px;
     color:white;
     text-shadow: none;
-    font-size: 50px;
-    opacity: 5%;
+    font-size: 150px;
+    opacity: 25%;
   }
-
+  
   .skills .digital-media .head{
     padding-top: 0px;
     color:white;
     text-shadow: none;
-    font-size: 50px;
-    opacity: 5%;
+    font-size: 100px;
+    opacity: 25%;
+  }
+  
+  .skills .digital-media .icon{
+    width: 80px;
+    transform: translateY(-50px);
   }
 }
 
@@ -216,41 +219,7 @@ p, h1, h2, h3, div{
 .skills .head{
   padding-top: 50px;
 }
-@media only screen and (min-width: 1200px){
-.skills .frontend .head{
-  padding-top: 0px;
-  color:white;
-  text-shadow: none;
-  font-size: 150px;
-  opacity: 5%;
-}
-.skills .icon{
-  width: 100px;
-  margin-right: 80px;
-  transform: translateY(-80px);
-}
 
-.skills .backend .head{
-  padding-top: 0px;
-  color:white;
-  text-shadow: none;
-  font-size: 150px;
-  opacity: 5%;
-}
-
-.skills .digital-media .head{
-  padding-top: 0px;
-  color:white;
-  text-shadow: none;
-  font-size: 100px;
-  opacity: 5%;
-}
-
-.skills .digital-media .icon{
-  width: 80px;
-  transform: translateY(-50px);
-}
-}
 
 .projects{
   width: 100%;

@@ -19,7 +19,7 @@ export default function Home(){
                 </div>
                 <div className="content">
                     <h1>I'm Ansh Chauhan.</h1>
-                    <p className="sub">Frontend Web Designer/Developer</p>
+                    <p className="sub">Front-end Web Designer/Developer</p>
                     <p className="sub">Graphic Designer</p>
                     <ul>
                         <a href="https://instagram.com/ansh.c05" className="icon"><FontAwesomeIcon icon={faInstagram}/></a>
@@ -57,7 +57,7 @@ export default function Home(){
                 <div className="skills main">
                     <h1 className="head">Skills</h1>
                     <div className="frontend">
-                        <h1 className="head">FRONT  END</h1>
+                        <h1 className="head">FRONT-END</h1>
                         <div className="icons">
                             <img src="/img/icons/javascript.png" alt="Java Script Image" className="icon"/>
                             <img src="/img/icons/html.png" alt="HTML Image" className="icon"/>

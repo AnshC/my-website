@@ -89,6 +89,38 @@ p, h1, h2, h3, div{
   .projects .sub-nav li{
     margin-right: 0px !important; 
   }
+  /**/
+
+  .skills .icon{
+    width: 50px;
+    margin-right:50px;
+    margin-top: 20px;
+    transform: translate(0px);
+  }
+
+  .skills .frontend .head{
+    padding-top: 0px;
+    color:white;
+    text-shadow: none;
+    font-size: 50px;
+    opacity: 50%;
+  }
+
+  .skills .backend .head{
+    padding-top: 0px;
+    color:white;
+    text-shadow: none;
+    font-size: 50px;
+    opacity: 50%;
+  }
+
+  .skills .digital-media .head{
+    padding-top: 0px;
+    color:white;
+    text-shadow: none;
+    font-size: 50px;
+    opacity: 50%;
+  }
 }
 
 @media only screen and (min-width: 1200px){
@@ -97,7 +129,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 150px;
-    opacity: 25%;
+    opacity: 5%;
   }
   .skills .icon{
     width: 100px;
@@ -110,7 +142,7 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 150px;
-    opacity: 25%;
+    opacity: 5%;
   }
   
   .skills .digital-media .head{
@@ -118,13 +150,14 @@ p, h1, h2, h3, div{
     color:white;
     text-shadow: none;
     font-size: 100px;
-    opacity: 25%;
+    opacity: 5%;
   }
   
   .skills .digital-media .icon{
     width: 80px;
     transform: translateY(-50px);
   }
+  
 }
 
 #particles-js{

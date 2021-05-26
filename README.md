@@ -1,6 +1,6 @@
-#@https://anshc.co / https://anshc.netlify.app
+# @https://anshc.co / https://anshc.netlify.app
 
-##Dependencies
+## Dependencies
 
 react-router-dom
 react-fontawesome (icons)

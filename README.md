@@ -2,6 +2,6 @@
 
 ## Dependencies
 
-react-router-dom
-react-fontawesome (icons)
-react-particles-js
+1. react-router-dom
+2. react-fontawesome (icons)
+3. react-particles-js

@@ -1,8 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
+
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
+
 import Particles from 'react-particles-js';
+
 import {projects} from './projects';
 import ProjectCard from './project.card';
 
@@ -86,7 +90,7 @@ export default function Home(){
             <div className="sub-nav">
                 <h1 className="head">Project Page</h1>
                 <ul className="list">
-                    <li>Design Portfolio</li>
+                    <li><Link to="/design" className="React-Link">Design Portfolio</Link></li>
                     <li>Resumé</li>
                 </ul>
             </div>

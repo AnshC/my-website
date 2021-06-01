@@ -17,7 +17,7 @@ export default function Home(){
                 <div className="profile-wrapper">
                     <div className="circle">
                         <div className="circle-2">
-                            <img src="/img/profile.png" alt="profile picture" className="profile"/>
+                            <img src="/img/profile.png" alt="profile pic" className="profile"/>
                         </div>
                     </div>
                 </div>
@@ -63,25 +63,25 @@ export default function Home(){
                     <div className="frontend">
                         <h1 className="head">FRONT-END</h1>
                         <div className="icons">
-                            <img src="/img/icons/javascript.png" alt="Java Script Image" className="icon"/>
-                            <img src="/img/icons/html.png" alt="HTML Image" className="icon"/>
-                            <img src="/img/icons/css.png" alt="CSS Image" className="icon"/>
-                            <img src="/img/icons/reactjs.png" alt="ReactJS Image" className="icon" id="react-icon"/>
+                            <img src="/img/icons/javascript.png" alt="Java Script Logo" className="icon"/>
+                            <img src="/img/icons/html.png" alt="HTML Logo" className="icon"/>
+                            <img src="/img/icons/css.png" alt="CSS Logo" className="icon"/>
+                            <img src="/img/icons/reactjs.png" alt="ReactJS Logo" className="icon" id="react-icon"/>
                         </div>
                     </div>
                     <div className="backend">
                         <h1 className="head">BACK  END</h1>
                         <div className="icons">
-                            <img src="/img/icons/firebase.png" alt="Firebase Image" className="icon"/>
-                            <img src="/img/icons/nodejs.png" alt="NodeJS Image" className="icon"/>
+                            <img src="/img/icons/firebase.png" alt="Firebase Logo" className="icon"/>
+                            <img src="/img/icons/nodejs.png" alt="NodeJS Logo" className="icon"/>
                         </div>
                     </div>
                     <div className="digital-media">
                         <h1 className="head">DIGITAL  MEDIA</h1>
                         <div className="icons">
-                            <img src="/img/icons/photoshop.png" alt="Firebase Image" className="icon"/>
-                            <img src="/img/icons/illustrator.png" alt="NodeJS Image" className="icon"/>
-                            <img src="/img/icons/premierpro.png" alt="NodeJS Image" className="icon"/>
+                            <img src="/img/icons/photoshop.png" alt="Photoshop Logo" className="icon"/>
+                            <img src="/img/icons/illustrator.png" alt="Illustrator Logo" className="icon"/>
+                            <img src="/img/icons/premierpro.png" alt="Premier Pro Logo" className="icon"/>
                         </div>
                     </div>
                 </div>

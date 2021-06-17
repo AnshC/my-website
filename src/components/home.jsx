@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram, faGithub, faNpm} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 import Particles from 'react-particles-js';
@@ -28,6 +28,7 @@ export default function Home(){
                     <ul>
                         <a href="https://instagram.com/ansh.c05" className="icon"><FontAwesomeIcon icon={faInstagram}/></a>
                         <a href="https://github.com/AnshC" className="icon"><FontAwesomeIcon icon={faGithub}/></a>
+                        <a href="https://www.npmjs.com/~anshc" className="icon"><FontAwesomeIcon icon={faNpm}/></a>
                         <a href="mailto:anshc2005@gmail.com" className="icon"><FontAwesomeIcon icon={faEnvelope}/></a>
                     </ul>
                 </div>     

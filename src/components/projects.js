@@ -51,13 +51,22 @@ export const projects = [
     },
     {
         name: "react-cool-cards",
-        description: "Add responsive, stylish cards easily to your React Project.",
+        description: "Add responsive & stylish cards easily to your React Project.",
         link: {
             url: "https://github.com/AnshC/react-cool-cards",
             state: "enabled"
         },
         demo: "https://www.npmjs.com/package/react-cool-cards",
         key: "project05_react-cool-cards"
+    },
+    {
+        name: "Process & Concepts",
+        description: "Official website of Process & Concepts",
+        link: {
+            url: "https://github.com/AnshC/process-concepts",
+            state: "enabled"
+        },
+        key: "project06_process-concepts"
     }
     
 ]

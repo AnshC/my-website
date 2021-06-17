@@ -13,10 +13,10 @@ export const projects = [
         name: "Personal Website",
         description: "My own website!",
         link: {
-            url: "https://anshc.github.io",
-            state: "n/a"
+            url: "https://github.com/AnshC/my-website",
+            state: "enabled"
         },
-        demo: "https://anshc.github.io",
+        demo: "https://anshc.co",
         key: "project02_myportfolio"
     },
     {

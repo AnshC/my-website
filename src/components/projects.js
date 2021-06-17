@@ -48,6 +48,16 @@ export const projects = [
         },
         demo: "https://nextrainfall.glitch.me",
         key: "project04_next-rainfall"
+    },
+    {
+        name: "react-cool-cards",
+        description: "Add responsive, stylish cards easily to your React Project.",
+        link: {
+            url: "https://github.com/AnshC/react-cool-cards",
+            state: "enabled"
+        },
+        demo: "https://www.npmjs.com/package/react-cool-cards",
+        key: "project05_react-cool-cards"
     }
     
 ]

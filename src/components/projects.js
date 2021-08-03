@@ -61,12 +61,21 @@ export const projects = [
     },
     {
         name: "Process & Concepts",
-        description: "Official website of Process & Concepts",
+        description: "Official website for Process & Concepts",
         link: {
             url: "https://github.com/AnshC/process-concepts",
             state: "enabled"
         },
         key: "project06_process-concepts"
+    },
+    {
+        name: "Pacific Sparkles",
+        description: "Official website for Pacific Sparkles",
+        link: {
+            url: "https://github.com/AnshC/pacific-sparkles",
+            state: "enabled"
+        },
+        demo: "https://pacificsparkles.com",
+        key: "project07_pacific-sparkles"
     }
-    
 ]

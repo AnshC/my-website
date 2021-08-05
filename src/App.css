@@ -374,40 +374,57 @@ p, h1, h2, h3, div{
 /* Design page Styles */
 
 .design{
-  background-color: var(--dark);
   min-height: 100vh;
 }
 
-.design .content{
-  z-index: 1;
-  padding-right: 20vw;
-  padding-left: 20vw;
+.design .content {
+  text-align: center;
+}
+
+.design .content .link {
+  color: var(--pink);
+  margin-top: 30px;
+  transition: all 0.3s;
+}
+
+.design .content .link:hover{
+  text-shadow: var(--pink) 0px 0px 10px;
 }
 
 .design .content h1{
-  color:var(--dark);
+  color:var(--pink);
+  margin-top: 50px;
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .design .hero{
   position: relative;
   width: 100%;
-  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-.design .hero:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--pink);
-  border-radius: 0 0 50% 50%;
-  transform: scaleX(1.5);
+.design .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.design .card {
+  width: 490px;
+  height: 400px;
+  margin:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 7px;
 }
 
 /* Footer Styles */

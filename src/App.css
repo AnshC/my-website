@@ -316,6 +316,8 @@ p, h1, h2, h3, div{
   font-weight: 600;
   color: white;
   transition: all 0.3s;
+  text-decoration: underline;
+  padding:5px;
 }
 
 .projects .sub-nav li:hover{
@@ -379,6 +381,7 @@ p, h1, h2, h3, div{
 
 .design .content {
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .design .content .link {
@@ -394,6 +397,7 @@ p, h1, h2, h3, div{
 .design .content h1{
   color:var(--pink);
   margin-top: 50px;
+  margin-bottom: 10px;
   text-align: center;
   padding-right: 10px;
   padding-left: 10px;
@@ -416,15 +420,22 @@ p, h1, h2, h3, div{
 }
 
 .design .card {
-  width: 490px;
-  height: 400px;
+  height: 450px;
   margin:10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  margin-left: 15px;
+  margin-right: 15px;
   border-radius: 7px;
+}
+
+.design .loader {
+  text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+  .design .card {
+    width: 300px;
+    height: auto;
+  }
 }
 
 /* Footer Styles */

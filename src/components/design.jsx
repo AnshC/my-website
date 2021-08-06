@@ -1,9 +1,20 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faArrowCircleLeft} from '@fortawesome/free-solid-svg-icons'
-
+import {faArrowCircleLeft} from '@fortawesome/free-solid-svg-icons';
+import {designs} from './designs';
 export default function Design(){
+    const [images, setImages] = useState(designs)
+    const [imagesLoaded, setImagesLoaded] = useState(false)
+    var imageCount = 0;
+    function loadImage () {
+        imageCount++;
+    }
+    useEffect(()=>{
+        if (imageCount === images.length) {
+            setImagesLoaded(true)
+        }
+    })
     return(
         <div className="design">
             <div className="hero">
@@ -13,14 +24,13 @@ export default function Design(){
                 </div>
             </div>
             <div className="cards">
-                <div className="card" style={{backgroundImage: "url(/img/design/cat.jpg)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/diamond.png)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/head.png)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/jellyfish.png)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/profile.png)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/teenage.png)"}}></div>
-                <div className="card" style={{backgroundImage: "url(/img/design/wolf.jpg)"}}></div>
+                {images.map((image)=>{
+                    return (
+                        <img key={image} src={`/img/design/${image}`} alt="My Image" className="card" onLoad={loadImage}/>
+                    )
+                })}
             </div>
+            {imagesLoaded ? <div className="loader">Loading Images...</div> : null}
         </div>
     )
 }

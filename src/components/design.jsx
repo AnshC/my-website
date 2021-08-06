@@ -26,7 +26,7 @@ export default function Design(){
             <div className="cards">
                 {images.map((image)=>{
                     return (
-                        <img key={image} src={`/img/design/${image}`} alt="My Image" className="card" onLoad={loadImage}/>
+                        <img key={image} src={`/img/design/${image}`} alt="My Image" className="card" onLoad={loadImage} onClick={window.location.replace(`/img/design/${image}`)}/>
                     )
                 })}
             </div>

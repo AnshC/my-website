@@ -425,6 +425,12 @@ p, h1, h2, h3, div{
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 7px;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.design .card:hover {
+  transform: scale(1.2);
 }
 
 .design .loader {

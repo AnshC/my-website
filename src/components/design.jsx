@@ -4,12 +4,15 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowCircleLeft} from '@fortawesome/free-solid-svg-icons';
 import {designs} from './designs';
 export default function Design(){
-    const [images, setImages] = useState(designs)
+    const [images, setImages] = useState([])
     const [imagesLoaded, setImagesLoaded] = useState(false)
     var imageCount = 0;
     function loadImage () {
         imageCount++;
     }
+    useEffect(()=>{
+        setImages(designs)
+    }, [])
     useEffect(()=>{
         if (imageCount === images.length) {
             setImagesLoaded(true)
@@ -24,13 +27,12 @@ export default function Design(){
                 </div>
             </div>
             <div className="cards">
-                {images.map((image)=>{
+                {imagesLoaded ? images.map((image)=>{
                     return (
-                        <a href={`/img/design/${image}`}><img key={image} src={`/img/design/${image}`} alt="My Image" className="card" onLoad={loadImage} /></a>
+                        <a key={image} href={`/img/design/${image}`}><img src={`/img/design/${image}`} alt="My Image" className="card" onLoad={loadImage} /></a>
                     )
-                })}
+                }) : <div className="loader">Loading Images...</div>}
             </div>
-            {imagesLoaded ? <div className="loader">Loading Images...</div> : null}
         </div>
     )
 }

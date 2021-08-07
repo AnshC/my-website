@@ -341,12 +341,12 @@ p, h1, h2, h3, div{
 
 .projects .websites .head {
   margin-left: 20vw;
-  text-align: center;
 }
 
 @media screen and (max-width: 860px){
  .projects .websites .head {
    margin-left: 0;
+   text-align: center;
  }
 }
 

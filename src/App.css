@@ -331,24 +331,49 @@ p, h1, h2, h3, div{
   margin-bottom: 30px;
 }
 
+.projects .websites .frames {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects .websites .head {
+  margin-left: 20vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 860px){
+ .projects .websites .head {
+   margin-left: 0;
+ }
+}
+
 .projects .websites .website {
-  background-color: white;
+  background-color: var(--darkest);
   width: 600px;
   height: 300px;
   border-radius: 7px;
   margin: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.projects .websites .website:hover {
+  transform: scale(1.02);
 }
 
 .projects .websites .website .controls {
   display: flex;
   position: absolute;
-  transform: translateY(7.5px) translateX(20px);
-
+  transform: translateY(9px) translateX(20px);
 }
 
 .projects .websites .website .controls * {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
   border-radius: 100%;
   margin-left: 4px;
   margin-right: 4px;
@@ -385,6 +410,9 @@ p, h1, h2, h3, div{
   background-position: center;
   width: 100%;
   height: 100%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* External Component Styles (projects) */
@@ -503,6 +531,11 @@ p, h1, h2, h3, div{
     width: 300px;
     height: auto;
   }
+}
+
+/* Resume Styles */
+.resume {
+  min-height: 100vh;
 }
 
 /* Footer Styles */

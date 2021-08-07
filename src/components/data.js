@@ -79,3 +79,18 @@ export const projects = [
         key: "project07_pacific-sparkles"
     }
 ]
+
+export const designs = [
+    "cat.jpg", "diamond.png", "head.png", "jellyfish.png", "profile.png", "wolf.jpg", "teenage.png"
+]
+
+export const websites = [
+    {
+        url: 'pacificsparkles.com',
+        src: 'pacificsparkles.png'
+    }, 
+    {
+        url: 'anshc.co',
+        src: 'anshc.png'
+    }
+]

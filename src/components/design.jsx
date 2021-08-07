@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowCircleLeft} from '@fortawesome/free-solid-svg-icons';
-import {designs} from './designs';
+import {designs} from './data';
 export default function Design(){
     const [images, setImages] = useState([])
     const [imagesLoaded, setImagesLoaded] = useState(false)

@@ -111,6 +111,20 @@ export default function Home(){
                 })
             }
             </div>
+                <div className="websites main">
+                    <h1 className="head">Websites I'm Proud of.</h1>
+                    <div className="frames">
+                        <div className="website">
+                            <div className="controls">
+                                <span id="red"></span>
+                                <span id="yellow"></span>
+                                <span id="green"></span>
+                            </div>
+                            <p className="url">pacificsparkles.com</p>
+                            <div className="img" style={{backgroundImage: "url(/img/websites/pacificsparkles.png)"}}></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

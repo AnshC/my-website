@@ -318,6 +318,7 @@ p, h1, h2, h3, div{
   transition: all 0.3s;
   text-decoration: underline;
   padding:5px;
+  text-underline-offset: 3px;
 }
 
 .projects .sub-nav li:hover{
@@ -536,6 +537,57 @@ p, h1, h2, h3, div{
 /* Resume Styles */
 .resume {
   min-height: 100vh;
+  padding-left: 20vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 860px) {
+  .resume {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.resume p, li {
+  color: white;
+  font-weight: 500;
+}
+
+.resume h2 {
+  color: var(--pink);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.resume li {
+  color: white;
+}
+
+.resume ul {
+  padding-left: 50px;
+}
+
+.resume ul ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.resume .indented {
+  padding-left: 50px;
+}
+
+.resume a {
+  color: var(--pink);
+  text-underline-offset: 3px;
+  transition: color 0.1s;
+}
+
+.resume a:hover {
+  color: var(--pinkdark);
 }
 
 /* Footer Styles */

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faGithub, faNpm } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPaintBrush, faListAlt} from '@fortawesome/free-solid-svg-icons'
 
 import Particles from 'react-particles-js';
 
@@ -91,8 +91,8 @@ export default function Home() {
                 <div className="sub-nav">
                     <h1 className="head">Project Page</h1>
                     <ul className="list">
-                        <li><Link to="/design" className="React-Link">Design Portfolio</Link></li>
-                        <li><Link to="/resume" className="React-Link">Resumé</Link></li>
+                        <li><Link to="/design" className="React-Link"><FontAwesomeIcon icon={faPaintBrush} /> Design Portfolio</Link></li>
+                        <li><Link to="/resume" className="React-Link"><FontAwesomeIcon icon={faListAlt} /> Resumé</Link></li>
                     </ul>
                 </div>
                 <div className="cards">

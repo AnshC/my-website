@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="profile-wrapper">
                     <div className="circle">
                         <div className="circle-2">
-                            <img src="/img/profile.png" alt="profile pic" className="profile" />
+                            <img src="/img/profile-min.jpg" alt="profile pic" className="profile" />
                         </div>
                     </div>
                 </div>

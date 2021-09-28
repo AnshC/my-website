@@ -14,6 +14,7 @@ export default function Resume () {
             </ul>
                 <h2>2021</h2>
                 <ul>
+                    <li>Joined Rotract Roundtown, a <a href="https://www.rotary.org/en/get-involved/rotaract-clubs" target="_blank">Rotract Club</a> in Jodhpur</li>
                     <li><a href="https://unitedunderarts.org" target="_blank">United Under Arts</a> (Technology Officer): </li>
                     <ul>
                         <li>Currently designing monthly newsletters</li>
@@ -21,7 +22,7 @@ export default function Resume () {
                     <li><a href="https://pacificsparkles.com">Pacific Sparkles</a> (Graphic designing, Web development):</li>
                     <ul>
                         <li>Currently designing graphics for their <a href="https://instagram.com/pacific_sparkles" target="_blank">instagram</a></li>
-                        <li>Created their <a href="https://pacificsparkles.com" target="_blank">website</a></li>
+                        <li>Developed and designed their <a href="https://pacificsparkles.com" target="_blank">website</a></li>
                     </ul>
                     <li>Active member of the <a href="https://www.nyas.org/programs/global-stem-alliance/the-junior-academy/" target="_blank">New York Academy of Sciences Junior Academy</a></li>
                     <li>Built my first Node.js App - <a href="https://nextrainfall.glitch.me">Next Rainfall</a></li>

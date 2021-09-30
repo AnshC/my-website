@@ -16,7 +16,7 @@ export default function Resume () {
             </ul>
                 <h2>2021</h2>
                 <ul>
-                    <li>Joined Rotract Roundtown, a <a href="https://www.rotary.org/en/get-involved/rotaract-clubs" target="_blank">Rotract Club</a> in Jodhpur</li>
+                    <li>Joined Rotract Roundtown, a <a href="https://www.rotary.org/en/get-involved/rotaract-clubs" target="_blank">Rotract Club</a> in Jodhpur:</li>
                     <ul>
                         <li>Graphic Design</li>
                     </ul>

@@ -115,20 +115,20 @@ p, h1, h2, h3, div{
     padding-top: 0px;
     color:white;
     text-shadow: none;
-    font-size: 150px;
+    font-size: 120px;
     opacity: 0.1;
   }
   .skills .icon{
     width: 100px;
     margin-right: 80px;
-    transform: translateY(-80px);
+    transform: translateY(-60px);
   }
   
   .skills .backend .head{
     padding-top: 0px;
     color:white;
     text-shadow: none;
-    font-size: 150px;
+    font-size: 100px;
     opacity: 0.1;
   }
   

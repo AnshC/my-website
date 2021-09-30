@@ -1,8 +1,10 @@
+import { Link } from 'react-router-dom'
+
 export default function Resume () {
     return (
         <div className="resume">
             <div>
-            <h1 className="head">Ansh Chauhan</h1>
+            <h1 className="head"><Link className="link" to="/">Ansh Chauhan</Link></h1>
             <p>anshc2005@gmail.com</p>
             <h2>High School</h2>
             <p>High School Junior <a href="https://bodhijodhpur.com" target="_blank">@Bodhi International School</a>, expected graduation May 2023.</p>
@@ -15,6 +17,9 @@ export default function Resume () {
                 <h2>2021</h2>
                 <ul>
                     <li>Joined Rotract Roundtown, a <a href="https://www.rotary.org/en/get-involved/rotaract-clubs" target="_blank">Rotract Club</a> in Jodhpur</li>
+                    <ul>
+                        <li>Graphic Design</li>
+                    </ul>
                     <li><a href="https://unitedunderarts.org" target="_blank">United Under Arts</a> (Technology Officer): </li>
                     <ul>
                         <li>Currently designing monthly newsletters</li>

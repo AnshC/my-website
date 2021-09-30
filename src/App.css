@@ -542,6 +542,10 @@ p, h1, h2, h3, div{
   padding-bottom: 50px;
 }
 
+.resume .head {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 860px) {
   .resume {
     padding-left: 10px;

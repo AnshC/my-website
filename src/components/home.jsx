@@ -8,8 +8,8 @@ import {
   faDribbble
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import HomePage from './sub/homepage'
-import WebDevelopment from "./sub/webdev";
+import HomePage from './homepage'
+import WebDevelopment from "./webdev";
 
 export default function Home() {
   const { page } = useParams();

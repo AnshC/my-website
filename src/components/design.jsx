@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import { designs } from "../data/data"
+import { designs } from "./local-data/data"
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowCircleLeft as Arrow } from '@fortawesome/free-solid-svg-icons'

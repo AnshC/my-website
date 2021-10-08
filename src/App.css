@@ -389,6 +389,33 @@ h1 .interactive-icon:hover {
   color: var(--primary-dark);
 }
 
+/* Blog Page Styles */
+
+.blog h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.blog {
+  position: absolute;
+}
+
+.blog-post-component {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(44, 44, 44);
+}
+
+.blog-post-component h1 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+.blog-post-component #date {
+  margin-bottom: 7px;
+}
+
 /* Responsive Styling (YAY) */
 
 @media screen and (max-width: 892px) {

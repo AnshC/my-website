@@ -1,7 +1,11 @@
-# @https://anshc.co / https://anshc.netlify.app
+# Ansh's Website
 
-## Dependencies
+Welcome to my website! This website's made off ReactJS with a number of dependencies. Back-end hosted on Supabase :).
 
-1. react-router-dom
-2. react-fontawesome (icons)
-3. react-particles-js
+Currently a work in progress. 
+
+Main Features:
+
+1. Responsive
+2. Dark Mode / Light Mode (by theme-ui)
+3. Full-stack website

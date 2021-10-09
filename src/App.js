@@ -9,9 +9,9 @@ import { BsFillSunFill as Sun } from 'react-icons/bs';
 import Home from "./components/home";
 import ScrollToTop from "./scroll";
 import Particles from "react-particles-js";
-import Design from "./components/design";
 import Resume from "./components/resume";
 import BlogLandingPage from "./components/blog/landing";
+import BlogPost from "./components/blog/post";
 import TravelPageLanding from "./components/blog/travel/landing";
 
 function App() {
@@ -72,10 +72,10 @@ function App() {
         </nav>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/design" component={Design} exact />
           <Route path="/resume" component={Resume} exact />
           <Route path="/travel" component={TravelPageLanding} exact />
           <Route path="/blog" component={BlogLandingPage} exact />
+          <Route path="/blog/:post" component={BlogPost} />
           <Route path="/:page" component={Home} />
         </Switch>
         <Particles

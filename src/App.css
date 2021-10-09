@@ -274,7 +274,6 @@ h1 .interactive-icon:hover {
 /* Design Styles */
 
 .design {
-  width: 100%;
   min-height: 70vh;
   position: absolute;
 }
@@ -287,7 +286,6 @@ h1 .interactive-icon:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 100%;
 }
 
 .img-holder img{
@@ -414,6 +412,14 @@ h1 .interactive-icon:hover {
 
 .blog-post-component #date {
   margin-bottom: 7px;
+}
+
+.blog-post {
+  position: absolute;
+}
+
+.blog-post .paragraph {
+  margin-top: 20px;
 }
 
 /* Responsive Styling (YAY) */

@@ -6,7 +6,7 @@ import { faArrowCircleLeft as Arrow } from '@fortawesome/free-solid-svg-icons'
 
 export default function Design () {
     return (
-        <div className="design main">
+        <div className="design">
             <h1 sx={{color: 'primary'}}>
                 <Link to="/" className="React-Link">
                     <FontAwesomeIcon icon={Arrow} className="interactive-icon"/>

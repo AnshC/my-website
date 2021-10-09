@@ -274,8 +274,6 @@ h1 .interactive-icon:hover {
 /* Design Styles */
 
 .design {
-  min-height: 70vh;
-  position: absolute;
 }
 
 .design h1 {
@@ -285,7 +283,6 @@ h1 .interactive-icon:hover {
 .design .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .img-holder img{
@@ -491,6 +488,7 @@ h1 .interactive-icon:hover {
 
 .home section {
   flex-direction: column-reverse;
+  min-height: max-content;
 }
 
 #particles-js {

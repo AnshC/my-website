@@ -443,6 +443,13 @@ h1 .interactive-icon:hover {
   height: max-content;
   margin: 15px;
 }
+
+/* Photograhy Styles */
+
+.photography h1 {
+  font-size: 36px;
+}
+
 /* Responsive Styling (YAY) */
 
 @media screen and (max-width: 892px) {

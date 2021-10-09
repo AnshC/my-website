@@ -11,6 +11,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import HomePage from './homepage'
 import WebDevelopment from "./webdev";
 import Design from "./design";
+import Photography from './photography'
 
 export default function Home() {
   const { page } = useParams();
@@ -60,7 +61,7 @@ export default function Home() {
           ) : page === "web" ? (
             <WebDevelopment />
           ) : page === "photography" ? (
-            <div className="photography"></div>
+            <Photography />
           ) : page === "design" ? (
             <Design />
           ) : (

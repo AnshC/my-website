@@ -441,8 +441,7 @@ h1 .interactive-icon:hover {
 .about .box img {
   width: 70px;
   height: max-content;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 15px;
 }
 /* Responsive Styling (YAY) */
 

@@ -16,17 +16,19 @@ export default function BlogLandingPage() {
     if (loading === false) {
         return (
             <div className="blog main">
-                {posts.map((post)=>{
-                    return (
-                        <BlogPostComponent 
-                            head={post.heading}
-                            summary={post.summary}
-                            key={post.id}
-                            link={post.post_link}
-                            date={post.created_at}
-                        />
-                    )
-                })}
+                {posts.length > 0 ? posts.map((post)=>{
+                        return (
+                            <BlogPostComponent 
+                                head={post.heading}
+                                summary={post.summary}
+                                key={post.id}
+                                link={post.post_link}
+                                date={post.created_at}
+                            />
+                        )
+                })
+            : <h1 sx={{color: 'iconInverseColor'}}>Nothing here yet...</h1>
+            }
             </div>
         )
     } else {

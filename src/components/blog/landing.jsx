@@ -27,7 +27,7 @@ export default function BlogLandingPage() {
                             />
                         )
                 })
-            : <h1 sx={{color: 'iconInverseColor'}}>Nothing here yet...</h1>
+            : <h1 sx={{color: 'text'}}>Nothing here yet...</h1>
             }
             </div>
         )

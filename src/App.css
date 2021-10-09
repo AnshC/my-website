@@ -422,6 +422,28 @@ h1 .interactive-icon:hover {
   margin-top: 20px;
 }
 
+/* About Styles */
+
+.about {
+  position: absolute;
+}
+
+.about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about .box {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.about .box img {
+  width: 70px;
+  height: max-content;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 /* Responsive Styling (YAY) */
 
 @media screen and (max-width: 892px) {

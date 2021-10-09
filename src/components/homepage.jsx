@@ -67,7 +67,7 @@ export default function HomePage() {
             <FontAwesomeIcon icon={faInfoCircle} className="icon" />
             About Me
           </h1>
-          <p sx={{color: 'text'}}>No need to explain :)</p>
+          <p sx={{color: 'text'}}>Self Explanatory</p>
         </Link>
         <Link
           className="wrapper React-Link box"

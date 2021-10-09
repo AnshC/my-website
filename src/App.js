@@ -10,6 +10,7 @@ import Home from "./components/home";
 import ScrollToTop from "./scroll";
 import Particles from "react-particles-js";
 import Resume from "./components/resume";
+import About from "./components/about"
 import BlogLandingPage from "./components/blog/landing";
 import BlogPost from "./components/blog/post";
 import TravelPageLanding from "./components/blog/travel/landing";
@@ -72,6 +73,7 @@ function App() {
         </nav>
         <Switch>
           <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} exact />
           <Route path="/resume" component={Resume} exact />
           <Route path="/travel" component={TravelPageLanding} exact />
           <Route path="/blog" component={BlogLandingPage} exact />

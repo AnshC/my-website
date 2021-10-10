@@ -28,9 +28,11 @@ export default function Design () {
 
 function ImgComponent (props) {
     return (
-        <div className="img-holder" sx={{backgroundColor: 'box'}}>
-            <img src={`/img/design/${props.imgSource}`} alt={props.imgCaption} />
-            <p sx={{color: 'text'}}>{props.imgCaption}</p>
+        <div className="img-holder">
+            <section sx={{backgroundColor: 'box'}}> 
+                <img src={`/img/design/${props.imgSource}`} alt={props.imgCaption} />
+                <p sx={{color: 'text'}}>{props.imgCaption}</p>
+            </section>
         </div>
     )
 }

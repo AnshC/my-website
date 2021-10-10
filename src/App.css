@@ -288,10 +288,12 @@ h1 .interactive-icon:hover {
   border-top-right-radius: 10px;
 }
 
-.img-holder {
+.img-holder section{
   border-radius: 10px;
   margin: 10px 20px 10px 0px;
   max-width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 
 .img-holder p {

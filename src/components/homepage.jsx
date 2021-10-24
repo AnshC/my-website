@@ -59,7 +59,7 @@ export default function HomePage() {
       </div>
       <div className="row">
         <Link
-        to="/about"
+        to="/resume"
           className="wrapper React-Link box"
           sx={{ backgroundColor: "box" }}
         >

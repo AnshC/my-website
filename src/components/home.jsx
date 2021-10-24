@@ -17,7 +17,9 @@ export default function Home() {
   const { page } = useParams();
 
   return (
-    <div className="home main">
+    <div className="home main"  sx={{'@media screen and (max-width: 768px)': {
+      backgroundColor: "background", transition: "backgroundColor"
+    }}}>
       <section>
         <div className="sidebar">
           <ul className="links">

@@ -19,7 +19,7 @@ const theme = {
         }
     },
     transitions : {
-        backgroundColor: 'background 0.3s ease'
+        backgroundColor: 'background 0.2s'
     }
 }
 

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
-import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { faListAlt } from "@fortawesome/free-solid-svg-icons";
 import { SiAdobephotoshop } from "react-icons/si";
 import { IoLocationSharp, IoAirplaneSharp, IoCodeSlash } from 'react-icons/io5';
 
@@ -64,10 +64,10 @@ export default function HomePage() {
           sx={{ backgroundColor: "box" }}
         >
           <h1 sx={{ color: "secondaryInverse" }}>
-            <FontAwesomeIcon icon={faInfoCircle} className="icon" />
-            About Me
+            <FontAwesomeIcon icon={faListAlt} className="icon" />
+            Resume
           </h1>
-          <p sx={{color: 'text'}}>Self Explanatory</p>
+          <p sx={{color: 'text'}}>Achievments, Experience & More!</p>
         </Link>
         <Link
           className="wrapper React-Link box"

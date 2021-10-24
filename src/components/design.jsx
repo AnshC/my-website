@@ -17,7 +17,7 @@ export default function Design () {
                 {
                     designs.map((design)=>{
                         return (
-                            <ImgComponent imgSource={design.src} imgCaption={design.caption}/>
+                            <ImgComponent webSrc={design.websrc} imgSource={design.src} imgCaption={design.caption}/>
                         )
                     })
                 }
@@ -30,7 +30,10 @@ function ImgComponent (props) {
     return (
         <div className="img-holder">
             <section sx={{backgroundColor: 'box'}}> 
-                <img src={`/img/design/${props.imgSource}`} alt={props.imgCaption} />
+                <picture>
+                    <source srcSet={`/img/design/${props.webSrc}`} type="image/webp" />
+                    <img src={`/img/design/${props.webSrc}`} alt={props.imgCaption} />
+                </picture>
                 <p sx={{color: 'text'}}>{props.imgCaption}</p>
             </section>
         </div>

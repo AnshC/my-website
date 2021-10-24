@@ -85,6 +85,10 @@ h1 .interactive-icon:hover {
   flex-wrap: wrap;
 }
 
+body {
+  transition: all 0.3s ease;
+}
+
 /* Home Styles */
 
 .home {
@@ -293,7 +297,7 @@ h1 .interactive-icon:hover {
   margin: 10px 20px 10px 0px;
   max-width: 300px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column !important;
 }
 
 .img-holder p {

@@ -56,13 +56,13 @@ export const projects = [
 ];
 
 export const designs = [
-  { src: "cat.jpg", caption: "Fire Cat" },
-  { src: "diamond.png", caption: "Melting Diamond" },
-  { src: "head.png", caption: "Hot Head" },
-  { src: "jellyfish.png", caption: "Jellyfish Sky" },
-  { src: "profile.png", caption: "Custom Profile Picture For Me" },
-  { src: "wolf.jpg", caption: "Space Wolf" },
-  { src: "teenage.png", caption: "Teenage Vibes" },
+  { websrc: "cat.webp", src: "cat.jpg", caption: "Fire Cat" },
+  { websrc: "diamond.webp", src: "diamond.png", caption: "Melting Diamond" },
+  { websrc: "head.webp", src: "head.png", caption: "Hot Head" },
+  { websrc: "jellyfish.webp", src: "jellyfish.png", caption: "Jellyfish Sky" },
+  { websrc: "profile.webp", src: "profile.png", caption: "Custom Profile Picture For Me" },
+  { websrc: "wolf.webp", src: "wolf.jpg", caption: "Space Wolf" },
+  { websrc: "teenage.webp", src: "teenage.png", caption: "Teenage Vibes" },
 ];
 
 export const websites = [

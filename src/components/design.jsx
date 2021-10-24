@@ -32,7 +32,7 @@ function ImgComponent (props) {
             <section sx={{backgroundColor: 'box'}}> 
                 <picture>
                     <source srcSet={`/img/design/${props.webSrc}`} type="image/webp" />
-                    <img src={`/img/design/${props.webSrc}`} alt={props.imgCaption} />
+                    <img type="image/webp" src={`/img/design/${props.webSrc}`} alt={props.imgCaption} />
                 </picture>
                 <p sx={{color: 'text'}}>{props.imgCaption}</p>
             </section>

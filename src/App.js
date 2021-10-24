@@ -21,7 +21,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <div className="App">
-        <nav>
+        <nav sx={{ backgroundColor: "background", transition: "backgroundColor" }}>
           <div className="profile">
             <div
               className="circle"
@@ -81,7 +81,7 @@ function App() {
           <Route path="/:page" component={Home} />
         </Switch>
         <Particles
-          sx={{ backgroundColor: "background" }}
+          sx={{ backgroundColor: "background", transition: "backgroundColor" }}
           id="particles-js"
           params={{
             particles: {

@@ -17,6 +17,9 @@ const theme = {
                 secondaryInverse: '#68b6ff'
             }
         }
+    },
+    transitions : {
+        backgroundColor: 'background 0.3s ease'
     }
 }
 

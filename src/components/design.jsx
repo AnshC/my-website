@@ -1,10 +1,23 @@
 /** @jsxImportSource theme-ui */
+import { useState } from "react"
 import { designs } from "./local-data/data"
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowCircleLeft as Arrow } from '@fortawesome/free-solid-svg-icons'
 
 export default function Design () {
+
+    const [ imgDisplay, setImageDisplay ] = useState("hidden");
+    var imgIndex = 0;
+    function imgLoaded() {
+        imgIndex++;
+        console.log(imgIndex)
+        if (imgIndex === designs.length) {
+            setImageDisplay("visible")
+        }
+    }
+      
+
     return (
         <div className="design">
             <h1 sx={{color: 'primary'}}>
@@ -13,11 +26,19 @@ export default function Design () {
                 </Link>
                 Graphic Design.
             </h1>
-            <div className="row">
+            <div className="row" style={{ visibility: imgDisplay}}>
                 {
                     designs.map((design)=>{
                         return (
-                            <ImgComponent webSrc={design.websrc} imgSource={design.src} imgCaption={design.caption}/>
+                            <div className="img-holder" key={design.websrc}>
+                <section sx={{backgroundColor: 'box'}}> 
+                    <picture>
+                        <source srcSet={`/img/design/${design.websrc}`} type="image/webp" />
+                        <img onLoad={(()=>{imgLoaded()})} type="image/webp" src={`/img/design/${design.websrc}`} alt={design.caption} />
+                    </picture>
+                    <p sx={{color: 'text'}}>{design.caption}</p>
+                </section>
+            </div>
                         )
                     })
                 }
@@ -26,16 +47,4 @@ export default function Design () {
     )
 }
 
-function ImgComponent (props) {
-    return (
-        <div className="img-holder">
-            <section sx={{backgroundColor: 'box'}}> 
-                <picture>
-                    <source srcSet={`/img/design/${props.webSrc}`} type="image/webp" />
-                    <img type="image/webp" src={`/img/design/${props.webSrc}`} alt={props.imgCaption} />
-                </picture>
-                <p sx={{color: 'text'}}>{props.imgCaption}</p>
-            </section>
-        </div>
-    )
-}
+

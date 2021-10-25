@@ -11,10 +11,10 @@ export default function HomePage() {
   useEffect(()=>{
     const wrapper = document.querySelectorAll('.wrapper');
     const bgicon = document.querySelectorAll('.bg-icon');
-      wrapper[0].addEventListener('mouseover', ()=>{
+      wrapper[0].addEventListener('mouseenter', ()=>{
         rotateIcon(0)
       })
-      wrapper[3].addEventListener('mouseover', ()=>{
+      wrapper[3].addEventListener('mouseenter', ()=>{
         rotateIcon(1)
       })
       wrapper[0].addEventListener('mouseout', ()=>{
@@ -27,7 +27,7 @@ export default function HomePage() {
       bgicon[iconIndex].style.transform = "rotate(-15deg) translateX(-15px) scale(1.5)"
     }
     function rotateIconOpposite(iconIndex) {
-      bgicon[iconIndex].style.transform = "rotate(0deg) translateX(-15px) scale(1)"
+      bgicon[iconIndex].style.transform = "initial"
     }
   })
   return (

@@ -146,7 +146,7 @@ h1 .interactive-icon:hover {
 }
 
 .App nav ul li {
-  margin-left: 25px;
+  margin-left: 35px;
 }
 
 .App nav ul li * {
@@ -227,7 +227,7 @@ h1 .interactive-icon:hover {
   padding: 5px 15px 5px 15px;
   margin: 0px 10px 20px 10px;
   height: 170px;
-  transition: transform 0.2s;
+  transition: transform 0.2s ease-in-out;
   text-align: left;
   position: relative;
   overflow: hidden;

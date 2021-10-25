@@ -49,7 +49,7 @@ export default function Home() {
               </Link>
             </li>
           </ul>
-          <p sx={{ color: "text" }}>Updated 24th October 2021</p>
+          <p sx={{ color: "text" }}>Updated 25th October 2021</p>
           <ul className="social-links">
             <a target="_blank" rel="noreferrer" href="https://instagram.com/ansh.c05"><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
             <a target="_blank" rel="noreferrer" href="https://github.com/AnshC"><FontAwesomeIcon className="icon" icon={faGithub} /></a>

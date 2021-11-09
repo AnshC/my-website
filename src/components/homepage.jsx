@@ -11,10 +11,10 @@ export default function HomePage() {
   useEffect(()=>{
     const wrapper = document.querySelectorAll('.wrapper');
     const bgicon = document.querySelectorAll('.bg-icon');
-      wrapper[0].addEventListener('mouseenter', ()=>{
+      wrapper[0].addEventListener('mouseover', ()=>{
         rotateIcon(0)
       })
-      wrapper[3].addEventListener('mouseenter', ()=>{
+      wrapper[3].addEventListener('mouseover', ()=>{
         rotateIcon(1)
       })
       wrapper[0].addEventListener('mouseout', ()=>{
